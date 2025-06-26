@@ -1,0 +1,37 @@
+# === Python/Django ===
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+*.log
+
+# Django static/media
+staticfiles/
+media/
+db.sqlite3
+
+# Django secrets
+.env
+*.env
+local_settings.py
+
+# Virtual Environments
+venv/
+env/
+taxvenv/
+
+# === Node/Frontend (if using React, Vue, etc.) ===
+node_modules/
+dist/
+build/
+
+# === OS & Editor Files ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# === Git ===
+*.orig
